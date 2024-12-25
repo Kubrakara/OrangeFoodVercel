@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import jsPDF from "jspdf";
-import { url } from "inspector";
 
 interface Ingredient {
   name: string;
